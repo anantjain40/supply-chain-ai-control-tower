@@ -1,0 +1,36 @@
+# Local environments and secrets
+.venv/
+.env
+*.key
+
+# Python caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Operating-system and temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+
+
+# VS Code local configuration
+.vscode/
+
+# Intermediate database exports
+inventory_db_export.csv
+suppliers_db_export.csv
+
+# Temporary reconciliation results
+reconciliation_09/
+
+# AI draft, rejected and duplicate reports
+output/gemini_investigation_draft.md
+output/gemini_investigation_rejected.md
+output/supply_chain_executive_report_reviewed.md
+
+# Local AI approval metadata containing machine paths
+output/gemini_validation_status.json
+
+# Previous report backups
+output/archive/

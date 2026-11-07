@@ -1,0 +1,74 @@
+{
+  "source": "Synthetic data only; source CSVs are deliberately messy",
+  "pre_clean_audit": {
+    "inventory_raw_rows": 4355,
+    "suppliers_raw_rows": 14,
+    "inventory_missing_by_column": {
+      "product_name": 23,
+      "category": 20,
+      "unit_cost": 12,
+      "replenishment_lead_time_days": 817
+    },
+    "suppliers_missing_by_column": {
+      "supplier_region": 1
+    },
+    "inventory_exact_duplicate_rows": 35,
+    "suppliers_exact_duplicate_rows": 2
+  },
+  "supplier_duplicate_ids_removed_after_standardization": 0,
+  "inventory_clean_rows": 4320,
+  "supplier_clean_rows": 12,
+  "corrections_by_rule": {
+    "missing_region_explicit_unknown": 1,
+    "normalize_category": 45,
+    "normalize_key": 32,
+    "normalize_region": 2,
+    "normalize_supplier_id": 1,
+    "normalize_supplier_status": 1,
+    "normalize_warehouse": 36,
+    "recalculate_closing_from_balanced_movements": 15,
+    "recover_receipts_from_inventory_equation": 7,
+    "restore_invariant_from_same_sku_peers": 66,
+    "trim_supplier_name": 1,
+    "unknown_on_time_count_excluded_from_service_rate": 7
+  },
+  "unresolved_supplier_service_measures": {
+    "unknown_ontime_inventory_records": 7,
+    "missing_observed_lead_time_with_deliveries": 15,
+    "policy": "Exclude unknown outcomes only from the affected KPI denominator; retain valid inventory records"
+  },
+  "final_validation": {
+    "unique_inventory_record_ids": true,
+    "unique_sku_warehouse_month": true,
+    "unique_supplier_ids": true,
+    "valid_supplier_foreign_keys": true,
+    "recognized_warehouses": true,
+    "recognized_categories": true,
+    "valid_months": true,
+    "all_nonnegative_inventory_counts": true,
+    "inventory_balances": true,
+    "fulfilled_not_above_demand": true,
+    "fulfilled_not_above_available": true,
+    "valid_positive_prices": true,
+    "nonnegative_delivery_counts": true,
+    "valid_known_ontime_counts": true,
+    "valid_supplier_contracts": true,
+    "full_4320_record_grid": true,
+    "all_120_skus": true,
+    "all_3_warehouses": true,
+    "all_12_suppliers": true,
+    "stockout_days_in_month": true,
+    "unmet_demand_stockout_consistency": true,
+    "all_integral_quantity_counts": true,
+    "month_to_month_stock_continuity": true
+  },
+  "kpi_definitions": {
+    "fill_rate": "SUM(fulfilled_units)/SUM(demand_units)",
+    "stockout_occurrence": "COUNT(stockout_days>0)/COUNT(SKU-warehouse-month records)",
+    "supplier_ontime_rate": "SUM(known on-time delivery lines)/SUM(delivery lines with known on-time counts)",
+    "observed_lead_days": "SUM(lead days * delivery lines)/SUM(delivery lines with known lead days)",
+    "closing_inventory_value": "SUM(closing_stock_units * unit_cost) for a single reporting month",
+    "turnover_proxy": "SUM(fulfilled_units * unit_cost) over period / AVERAGE(monthly closing inventory value)",
+    "potential_margin_exposure": "SUM(unfulfilled_units * (unit_selling_price - unit_cost)); scenario, not a realized loss"
+  }
+}

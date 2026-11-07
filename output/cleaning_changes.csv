@@ -1,0 +1,215 @@
+source,record,column,before,after,reason
+inventory,INV000693,supplier_id, sup011 ,SUP011,normalize_key
+inventory,INV000074,supplier_id, sup003 ,SUP003,normalize_key
+inventory,INV000412,supplier_id, sup002 ,SUP002,normalize_key
+inventory,INV002842,supplier_id, sup012 ,SUP012,normalize_key
+inventory,INV001732,supplier_id, sup010 ,SUP010,normalize_key
+inventory,INV001409,supplier_id, sup012 ,SUP012,normalize_key
+inventory,INV003102,supplier_id, sup008 ,SUP008,normalize_key
+inventory,INV002103,supplier_id, sup011 ,SUP011,normalize_key
+inventory,INV004193,supplier_id, sup008 ,SUP008,normalize_key
+inventory,INV001829,supplier_id, sup002 ,SUP002,normalize_key
+inventory,INV003171,supplier_id, sup009 ,SUP009,normalize_key
+inventory,INV000824,supplier_id, sup003 ,SUP003,normalize_key
+inventory,INV003444,supplier_id, sup008 ,SUP008,normalize_key
+inventory,INV003526,supplier_id, sup010 ,SUP010,normalize_key
+inventory,INV002432,supplier_id, sup009 ,SUP009,normalize_key
+inventory,INV000046,supplier_id, sup002 ,SUP002,normalize_key
+inventory,INV003426,supplier_id, sup008 ,SUP008,normalize_key
+inventory,INV003204,supplier_id, sup012 ,SUP012,normalize_key
+inventory,INV000563,supplier_id, sup008 ,SUP008,normalize_key
+inventory,INV002491,supplier_id, sup011 ,SUP011,normalize_key
+inventory,INV002165,supplier_id, sup002 ,SUP002,normalize_key
+inventory,INV000170,supplier_id, sup005 ,SUP005,normalize_key
+inventory,INV003874,supplier_id, sup010 ,SUP010,normalize_key
+inventory,INV004175,supplier_id, sup008 ,SUP008,normalize_key
+inventory,INV000897,supplier_id, sup005 ,SUP005,normalize_key
+inventory,INV003919,supplier_id, sup011 ,SUP011,normalize_key
+inventory,INV001890,supplier_id, sup004 ,SUP004,normalize_key
+inventory,INV001451,supplier_id, sup002 ,SUP002,normalize_key
+inventory,INV004080,supplier_id, sup004 ,SUP004,normalize_key
+inventory,INV002686,supplier_id, sup006 ,SUP006,normalize_key
+inventory,INV004102,supplier_id, sup006 ,SUP006,normalize_key
+inventory,INV003859,supplier_id, sup009 ,SUP009,normalize_key
+inventory,INV001851,warehouse, WEST ,West,normalize_warehouse
+inventory,INV003131,warehouse, SOUTH ,South,normalize_warehouse
+inventory,INV000275,warehouse, SOUTH ,South,normalize_warehouse
+inventory,INV000854,warehouse, SOUTH ,South,normalize_warehouse
+inventory,INV002922,warehouse, WEST ,West,normalize_warehouse
+inventory,INV000050,warehouse, SOUTH ,South,normalize_warehouse
+inventory,INV001187,warehouse, SOUTH ,South,normalize_warehouse
+inventory,INV000472,warehouse, NORTH ,North,normalize_warehouse
+inventory,INV003078,warehouse, WEST ,West,normalize_warehouse
+inventory,INV004038,warehouse, WEST ,West,normalize_warehouse
+inventory,INV002608,warehouse, NORTH ,North,normalize_warehouse
+inventory,INV002004,warehouse, WEST ,West,normalize_warehouse
+inventory,INV003792,warehouse, WEST ,West,normalize_warehouse
+inventory,INV001874,warehouse, SOUTH ,South,normalize_warehouse
+inventory,INV002071,warehouse, NORTH ,North,normalize_warehouse
+inventory,INV000580,warehouse, NORTH ,North,normalize_warehouse
+inventory,INV003686,warehouse, SOUTH ,South,normalize_warehouse
+inventory,INV003067,warehouse, NORTH ,North,normalize_warehouse
+inventory,INV000341,warehouse, SOUTH ,South,normalize_warehouse
+inventory,INV000787,warehouse, NORTH ,North,normalize_warehouse
+inventory,INV002968,warehouse, NORTH ,North,normalize_warehouse
+inventory,INV001394,warehouse, SOUTH ,South,normalize_warehouse
+inventory,INV001344,warehouse, WEST ,West,normalize_warehouse
+inventory,INV002556,warehouse, WEST ,West,normalize_warehouse
+inventory,INV003728,warehouse, SOUTH ,South,normalize_warehouse
+inventory,INV001812,warehouse, WEST ,West,normalize_warehouse
+inventory,INV002720,warehouse, SOUTH ,South,normalize_warehouse
+inventory,INV001070,warehouse, SOUTH ,South,normalize_warehouse
+inventory,INV001389,warehouse, WEST ,West,normalize_warehouse
+inventory,INV001393,warehouse, NORTH ,North,normalize_warehouse
+inventory,INV002511,warehouse, WEST ,West,normalize_warehouse
+inventory,INV001785,warehouse, WEST ,West,normalize_warehouse
+inventory,INV001282,warehouse, NORTH ,North,normalize_warehouse
+inventory,INV001368,warehouse, WEST ,West,normalize_warehouse
+inventory,INV002149,warehouse, NORTH ,North,normalize_warehouse
+inventory,INV002930,warehouse, SOUTH ,South,normalize_warehouse
+inventory,INV002509,category, home appliances ,Home Appliances,normalize_category
+inventory,INV001995,category, beauty ,Beauty,normalize_category
+inventory,INV000689,category, home appliances ,Home Appliances,normalize_category
+inventory,INV001475,category, electronics ,Electronics,normalize_category
+inventory,INV001463,category, electronics ,Electronics,normalize_category
+inventory,INV002383,category, beauty ,Beauty,normalize_category
+inventory,INV002320,category, home & living ,Home & Living,normalize_category
+inventory,INV002874,category, home appliances ,Home Appliances,normalize_category
+inventory,INV002430,category, sports ,Sports,normalize_category
+inventory,INV003505,category, sports ,Sports,normalize_category
+inventory,INV001172,category, fashion ,Fashion,normalize_category
+inventory,INV001315,category, beauty ,Beauty,normalize_category
+inventory,INV001792,category, home appliances ,Home Appliances,normalize_category
+inventory,INV003481,category, sports ,Sports,normalize_category
+inventory,INV003590,category, home appliances ,Home Appliances,normalize_category
+inventory,INV002449,category, sports ,Sports,normalize_category
+inventory,INV001162,category, fashion ,Fashion,normalize_category
+inventory,INV001228,category, home & living ,Home & Living,normalize_category
+inventory,INV003838,category, beauty ,Beauty,normalize_category
+inventory,INV001531,category, fashion ,Fashion,normalize_category
+inventory,INV001055,category, home appliances ,Home Appliances,normalize_category
+inventory,INV003530,category, sports ,Sports,normalize_category
+inventory,INV003005,category, home & living ,Home & Living,normalize_category
+inventory,INV003950,category, home appliances ,Home Appliances,normalize_category
+inventory,INV002308,category, home & living ,Home & Living,normalize_category
+inventory,INV001942,category, home & living ,Home & Living,normalize_category
+inventory,INV000699,category, home appliances ,Home Appliances,normalize_category
+inventory,INV003552,category, home appliances ,Home Appliances,normalize_category
+inventory,INV003228,category, home appliances ,Home Appliances,normalize_category
+inventory,INV003620,category, electronics ,Electronics,normalize_category
+inventory,INV001681,category, sports ,Sports,normalize_category
+inventory,INV002525,category, electronics ,Electronics,normalize_category
+inventory,INV003412,category, home & living ,Home & Living,normalize_category
+inventory,INV000108,category, fashion ,Fashion,normalize_category
+inventory,INV003527,category, sports ,Sports,normalize_category
+inventory,INV002543,category, electronics ,Electronics,normalize_category
+inventory,INV002972,category, fashion ,Fashion,normalize_category
+inventory,INV000145,category, home & living ,Home & Living,normalize_category
+inventory,INV002132,category, home appliances ,Home Appliances,normalize_category
+inventory,INV003653,category, electronics ,Electronics,normalize_category
+inventory,INV003141,category, sports ,Sports,normalize_category
+inventory,INV003424,category, beauty ,Beauty,normalize_category
+inventory,INV002271,category, fashion ,Fashion,normalize_category
+inventory,INV003242,category, electronics ,Electronics,normalize_category
+inventory,INV000752,category, electronics ,Electronics,normalize_category
+suppliers, sup011 ,supplier_id, sup011 ,SUP011,normalize_supplier_id
+suppliers,SUP010,supplier_name, Nexa Vendor 10 ,Nexa Vendor 10,trim_supplier_name
+suppliers,SUP002,supplier_region, north ,North,normalize_region
+suppliers,SUP004,supplier_region,SOUTH,South,normalize_region
+suppliers,SUP008,supplier_status, active ,Active,normalize_supplier_status
+suppliers,SUP006,supplier_region,,Unknown,missing_region_explicit_unknown
+inventory,INV003467,product_name,,Beauty Product 16,restore_invariant_from_same_sku_peers
+inventory,INV002776,product_name,,Sports Product 06,restore_invariant_from_same_sku_peers
+inventory,INV001264,product_name,,Beauty Product 02,restore_invariant_from_same_sku_peers
+inventory,INV000979,product_name,,Sports Product 07,restore_invariant_from_same_sku_peers
+inventory,INV002006,product_name,,Beauty Product 09,restore_invariant_from_same_sku_peers
+inventory,INV001627,product_name,,Beauty Product 03,restore_invariant_from_same_sku_peers
+inventory,INV000681,product_name,,Home Appliances Product 07,restore_invariant_from_same_sku_peers
+inventory,INV000922,product_name,,Beauty Product 08,restore_invariant_from_same_sku_peers
+inventory,INV001723,product_name,,Sports Product 15,restore_invariant_from_same_sku_peers
+inventory,INV001589,product_name,,Home & Living Product 10,restore_invariant_from_same_sku_peers
+inventory,INV000330,product_name,,Home Appliances Product 10,restore_invariant_from_same_sku_peers
+inventory,INV001155,product_name,,Fashion Product 05,restore_invariant_from_same_sku_peers
+inventory,INV000327,product_name,,Home Appliances Product 09,restore_invariant_from_same_sku_peers
+inventory,INV002769,product_name,,Sports Product 03,restore_invariant_from_same_sku_peers
+inventory,INV000226,product_name,,Beauty Product 16,restore_invariant_from_same_sku_peers
+inventory,INV001622,product_name,,Beauty Product 01,restore_invariant_from_same_sku_peers
+inventory,INV003582,product_name,,Home Appliances Product 14,restore_invariant_from_same_sku_peers
+inventory,INV001859,product_name,,Electronics Product 20,restore_invariant_from_same_sku_peers
+inventory,INV003625,product_name,,Electronics Product 09,restore_invariant_from_same_sku_peers
+inventory,INV004120,product_name,,Home & Living Product 14,restore_invariant_from_same_sku_peers
+inventory,INV000056,product_name,,Electronics Product 19,restore_invariant_from_same_sku_peers
+inventory,INV002528,product_name,,Electronics Product 03,restore_invariant_from_same_sku_peers
+inventory,INV001676,category,,Beauty,restore_invariant_from_same_sku_peers
+inventory,INV003273,category,,Electronics,restore_invariant_from_same_sku_peers
+inventory,INV000258,category,,Sports,restore_invariant_from_same_sku_peers
+inventory,INV002592,category,,Fashion,restore_invariant_from_same_sku_peers
+inventory,INV002808,category,,Sports,restore_invariant_from_same_sku_peers
+inventory,INV003739,category,,Home & Living,restore_invariant_from_same_sku_peers
+inventory,INV000892,category,,Home & Living,restore_invariant_from_same_sku_peers
+inventory,INV004181,category,,Beauty,restore_invariant_from_same_sku_peers
+inventory,INV003354,category,,Fashion,restore_invariant_from_same_sku_peers
+inventory,INV003404,category,,Home & Living,restore_invariant_from_same_sku_peers
+inventory,INV001108,category,,Electronics,restore_invariant_from_same_sku_peers
+inventory,INV003239,category,,Home Appliances,restore_invariant_from_same_sku_peers
+inventory,INV003493,category,,Sports,restore_invariant_from_same_sku_peers
+inventory,INV000572,category,,Beauty,restore_invariant_from_same_sku_peers
+inventory,INV003279,category,,Electronics,restore_invariant_from_same_sku_peers
+inventory,INV001579,category,,Home & Living,restore_invariant_from_same_sku_peers
+inventory,INV002929,category,,Electronics,restore_invariant_from_same_sku_peers
+inventory,INV004033,category,,Fashion,restore_invariant_from_same_sku_peers
+inventory,INV000654,category,,Sports,restore_invariant_from_same_sku_peers
+inventory,INV000025,category,,Electronics,restore_invariant_from_same_sku_peers
+inventory,INV000908,supplier_id,SUP999,SUP007,restore_invariant_from_same_sku_peers
+inventory,INV001922,supplier_id,SUP999,SUP005,restore_invariant_from_same_sku_peers
+inventory,INV003656,supplier_id,SUP999,SUP001,restore_invariant_from_same_sku_peers
+inventory,INV002281,supplier_id,SUP999,SUP005,restore_invariant_from_same_sku_peers
+inventory,INV000664,supplier_id,SUP999,SUP012,restore_invariant_from_same_sku_peers
+inventory,INV000503,supplier_id,SUP999,SUP006,restore_invariant_from_same_sku_peers
+inventory,INV001193,unit_cost,,1077.88,restore_invariant_from_same_sku_peers
+inventory,INV000996,unit_cost,,1124.25,restore_invariant_from_same_sku_peers
+inventory,INV002017,unit_cost,,872.35,restore_invariant_from_same_sku_peers
+inventory,INV001018,unit_cost,,2243.59,restore_invariant_from_same_sku_peers
+inventory,INV003117,unit_cost,,164.48,restore_invariant_from_same_sku_peers
+inventory,INV000404,unit_cost,,1824.24,restore_invariant_from_same_sku_peers
+inventory,INV001958,unit_cost,,2309.22,restore_invariant_from_same_sku_peers
+inventory,INV001706,unit_cost,,1880.21,restore_invariant_from_same_sku_peers
+inventory,INV000865,unit_cost,,394.02,restore_invariant_from_same_sku_peers
+inventory,INV000785,unit_cost,,1082.06,restore_invariant_from_same_sku_peers
+inventory,INV001862,unit_cost,,612.48,restore_invariant_from_same_sku_peers
+inventory,INV001365,unit_cost,,654.28,restore_invariant_from_same_sku_peers
+inventory,INV003432,unit_selling_price,0.0,299.9,restore_invariant_from_same_sku_peers
+inventory,INV002911,unit_selling_price,0.0,3493.63,restore_invariant_from_same_sku_peers
+inventory,INV002612,unit_selling_price,0.0,1384.83,restore_invariant_from_same_sku_peers
+inventory,INV000799,unit_selling_price,0.0,1659.53,restore_invariant_from_same_sku_peers
+inventory,INV001038,unit_selling_price,0.0,5088.61,restore_invariant_from_same_sku_peers
+inventory,INV001709,unit_selling_price,0.0,3777.16,restore_invariant_from_same_sku_peers
+inventory,INV003385,received_units,-15,124,recover_receipts_from_inventory_equation
+inventory,INV003629,received_units,-15,28,recover_receipts_from_inventory_equation
+inventory,INV000973,received_units,-15,254,recover_receipts_from_inventory_equation
+inventory,INV000672,received_units,-15,0,recover_receipts_from_inventory_equation
+inventory,INV000411,received_units,-15,77,recover_receipts_from_inventory_equation
+inventory,INV002540,received_units,-15,0,recover_receipts_from_inventory_equation
+inventory,INV001173,received_units,-15,176,recover_receipts_from_inventory_equation
+inventory,INV001847,closing_stock_units,-20,28,recalculate_closing_from_balanced_movements
+inventory,INV000159,closing_stock_units,11,0,recalculate_closing_from_balanced_movements
+inventory,INV001764,closing_stock_units,11,0,recalculate_closing_from_balanced_movements
+inventory,INV001727,closing_stock_units,-20,12,recalculate_closing_from_balanced_movements
+inventory,INV002408,closing_stock_units,571,560,recalculate_closing_from_balanced_movements
+inventory,INV003212,closing_stock_units,124,113,recalculate_closing_from_balanced_movements
+inventory,INV004275,closing_stock_units,-20,105,recalculate_closing_from_balanced_movements
+inventory,INV001645,closing_stock_units,152,141,recalculate_closing_from_balanced_movements
+inventory,INV004320,closing_stock_units,11,0,recalculate_closing_from_balanced_movements
+inventory,INV004020,closing_stock_units,-20,45,recalculate_closing_from_balanced_movements
+inventory,INV002980,closing_stock_units,-20,193,recalculate_closing_from_balanced_movements
+inventory,INV002964,closing_stock_units,-20,45,recalculate_closing_from_balanced_movements
+inventory,INV003806,closing_stock_units,215,204,recalculate_closing_from_balanced_movements
+inventory,INV002035,closing_stock_units,42,31,recalculate_closing_from_balanced_movements
+inventory,INV002460,closing_stock_units,-20,122,recalculate_closing_from_balanced_movements
+inventory,INV001786,supplier_on_time_deliveries_count,4,,unknown_on_time_count_excluded_from_service_rate
+inventory,INV004183,supplier_on_time_deliveries_count,3.0,,unknown_on_time_count_excluded_from_service_rate
+inventory,INV000285,supplier_on_time_deliveries_count,5.0,,unknown_on_time_count_excluded_from_service_rate
+inventory,INV000555,supplier_on_time_deliveries_count,6.0,,unknown_on_time_count_excluded_from_service_rate
+inventory,INV003209,supplier_on_time_deliveries_count,6.0,,unknown_on_time_count_excluded_from_service_rate
+inventory,INV001190,supplier_on_time_deliveries_count,5.0,,unknown_on_time_count_excluded_from_service_rate
+inventory,INV002646,supplier_on_time_deliveries_count,2.0,,unknown_on_time_count_excluded_from_service_rate

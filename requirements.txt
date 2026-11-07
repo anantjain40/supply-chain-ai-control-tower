@@ -1,0 +1,16 @@
+
+# Supply Chain AI Control Tower
+# Tested with Python 3.13
+
+# Data processing and numerical analysis
+pandas==3.1.0
+numpy==2.5.4
+
+# LangGraph AI investigation workflow
+langgraph==1.2.20
+
+# Gemini API integration
+google-genai==3.0.0
+
+# Environment configuration
+python-dotenv==1.2.4

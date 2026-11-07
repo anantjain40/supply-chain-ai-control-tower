@@ -1,0 +1,13 @@
+supplier_id,supplier_name,supplier_region,supplier_category,contracted_lead_time_days,contractual_on_time_target,supplier_status
+SUP005,Nexa Vendor 05,North,Home & Living,13,0.92,Active
+SUP009,Nexa Vendor 09,North,Sports,13,0.9,Active
+SUP006,Nexa Vendor 06,Unknown,Home & Living,6,0.92,Active
+SUP010,Nexa Vendor 10,South,Sports,10,0.95,Active
+SUP002,Nexa Vendor 02,North,Electronics,12,0.95,Active
+SUP003,Nexa Vendor 03,West,Fashion,5,0.92,Watchlist
+SUP012,Nexa Vendor 12,Central,Home Appliances,5,0.92,Active
+SUP001,Nexa Vendor 01,North,Electronics,12,0.95,Active
+SUP011,Nexa Vendor 11,West,Home Appliances,11,0.95,Active
+SUP007,Nexa Vendor 07,West,Beauty,12,0.9,Watchlist
+SUP008,Nexa Vendor 08,Central,Beauty,13,0.92,Active
+SUP004,Nexa Vendor 04,South,Fashion,13,0.92,Active
